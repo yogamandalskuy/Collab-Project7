@@ -9,12 +9,12 @@
                 <div class="p-5 bg-light rounded-3 col-xl-6">
                     <div class="mb-3 text-center">
                         <i class="bi-person-circle fs-1"></i>
-                        <h4>Edit Employee</h4>
+                        <h4>Edit Data Karyawan</h4>
                     </div>
                     <hr>
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label for="firstName" class="form-label">First Name</label>
+                            <label for="firstName" class="form-label">Nama Awal</label>
                             <input class="form-control @error('firstName') is-invalid @enderror" type="text"
                                 name="firstName" id="firstName"
                                 value="{{ $errors->any() ? old('firstName') : $employee->firstname }}"
@@ -24,8 +24,7 @@
                             @enderror
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label for="lastName" class="form-label">Last
-                                Name</label>
+                            <label for="lastName" class="form-label">Nama Akhir</label>
                             <input class="form-control @error('lastName') is-invalid @enderror" type="text"
                                 name="lastName" id="lastName"
                                 value="{{ $errors->any() ? old('lastName') : $employee->lastname }}"
@@ -44,7 +43,7 @@
                             @enderror
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label for="age" class="form-label">Age</label>
+                            <label for="age" class="form-label">Usia</label>
                             <input class="form-control @error('age') is-invalid @enderror" type="text" name="age"
                                 id="age" value="{{ $errors->any() ? old('age') : $employee->age }}"
                                 placeholder="Enter Age">
