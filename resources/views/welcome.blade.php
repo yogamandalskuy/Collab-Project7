@@ -85,7 +85,7 @@
 
     <section class="Profile">
         <h2>My Profile</h2>
-        <p> Perkenalkan kami dari Kelompok 5 kelas IS-05-04. Kelompok kami terdiri dari Yoga, Ekel, Naomi dan Trisna.
+        <p> Perkenalkan kami dari Kelompok 5 kelas IS-05-04. Kelompok kami terdiri dari Yoga, Cheasario, Naomi dan Trisna.
         </p>
     </section>
 
